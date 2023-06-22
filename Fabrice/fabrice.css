@@ -1,0 +1,69 @@
+body {
+
+    width: 1200px;
+    height: 1200px;
+     background-color:black ;
+     border: 1px solid red;
+
+
+ }
+ .arc {
+     position: absolute;
+     left: 692px;
+     top: 471px;
+     animation-duration: 8s;
+     animation-name: slideleft;
+ }
+ .triangle {
+     height: 0;
+     width: 0;
+     border-right: 87px solid transparent;
+     border-bottom: 150px solid rgb(254, 254, 254);
+     border-left: 87px solid transparent;
+     position: absolute;
+ }
+ 
+ .container-triangle {
+     zoom: 2.5;
+     width: 300px;
+     z-index: 100;
+     position: absolute;
+     padding: 100px 150px;
+    animation-duration: 3s;
+    animation-name: slidein;
+ }
+ .triangle2 {
+     height: 0;
+     width: 0;
+     border-right: 85px solid transparent;
+     border-bottom: 147px solid rgb(0, 0, 0);
+     border-left: 85px solid transparent;
+     float: left;
+     position: relative;
+     left: -85px;
+     top: 2px;
+ }
+ .triangle3 {
+     display: inline-block;
+     position: relative;
+     top: 47px;
+     left: -20px;
+     height: 0;
+     width: 0;
+     border-right: 4px solid transparent;
+     border-bottom: 89px solid #fff;
+     border-left: 32px solid transparent;
+     transform: rotate(-99deg);
+ }
+    section {
+     margin:auto;
+     height: 600px;
+    }
+ 
+ .arc div {
+     width: 400px;
+     height: 12px;
+     background-color: brown;
+     border: 1px solid black;
+     transform: rotate(12deg);
+ }

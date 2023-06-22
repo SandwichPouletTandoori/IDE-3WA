@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+
+
+header {
+    padding: 15px;
+    background: grey;
+    height: 100px;
+    text-align: center;
+    display: absolute;
+    align-content: center;
+}
+nav {
+    padding-top: 15px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li {
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    font-size:2em;
+    color: black;
+}
+
+
+
+
+
+main {
+    margin-top: 50px;
+    margin-left: 450px;
+}
+h2 {
+    margin-bottom: 50px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+div {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+  
+
+
+footer {
+    margin-top: 50px;
+    margin-left: 470px
+}
+#feedback {
+    padding: 40px;
+    width: 385px;
+}
+
+
+
+.divitem {
+    display: flex;
+    flex-direction: column;
+}  
+
+.submit {
+    margin-left: 20px;
+}

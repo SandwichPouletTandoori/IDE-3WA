@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Produit</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Contact</h2>
+            <section>
+                <div>
+                    <div class="divitem">
+                        <label for="select">Civilité</label>
+                        <select name="civilite" id="select">
+                            <option value="1">Monsieur</option>
+                            <option value="2">Madame</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="divitem">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="surname" required placeholder="Bon">
+                    </div>
+            
+                    <div class="divitem">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="name" required placeholder="Jean">
+                    </div>
+                </div>
+                <div>
+                    <div class="divitem">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required placeholder="Jean@bon.fr">
+                    </div>
+                    <div class="divitem">
+                        <label for="tel">Tel :</label>
+                        <input type="number" id="tel" name="tel" required minlength="10" maxlength="10" placeholder="06 12 34 56 78">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="divitem">
+                <label for="feedback">Votre message :</label>
+                <input type="textarea" id="feedback" name="feedback" placeholder="Ce que vous avez à dire">
+            </div>
+            <button type="submit" class="submit">Confirmer le formulaire</button>
+        </footer> 
+    </body>
+</html>
